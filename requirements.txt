@@ -1,4 +1,4 @@
 requests
 Pyrogram
 Autologging
-pytube3
+pytube
