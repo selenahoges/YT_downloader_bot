@@ -1,4 +1,4 @@
-requests==2.25.1
+requests
 Pyrogram
-Autologging==1.3.2
+Autologging
 pytube3
