@@ -16,7 +16,7 @@ api_id = int(os.environ["API_ID"])
 api_hash = os.environ["API_HASH"]
 bot_token = os.environ["BOT_TOKEN"]
 
-app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
+app = Client("my_account", app_version="1.2.3", device_model="PC", system_version="Linux", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 with app:
     botname = app.get_me().username
 
